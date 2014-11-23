@@ -6,7 +6,7 @@
     <?php $imgsrc = wp_get_attachment_url(get_post_thumbnail_id()); ?>
     <header style="background-image: url(<?php echo $imgsrc; ?>);">
         <div class="intro-text" >
-            <?php the_tags('<ul><li>','</li><li>','</li></ul>'); ?>
+            <?php the_tags('<ul class="tags"><li>','</li><li>','</li></ul>'); ?>
             <h2><?php the_title(); ?></h2>
             <h3><?php the_time('F j, Y')?></h3>
             <h4>by <?php the_author_posts_link(); ?></h4>

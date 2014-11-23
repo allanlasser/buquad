@@ -1,4 +1,4 @@
-.primary-menu, .secondary-menu {
+.primary-menu, .secondary-menu, .footer-menu {
     font-family: $font-sans-serif;
     font-size: $font-size * 1.25;
     
@@ -55,7 +55,7 @@
     }
 }
 
-.secondary-menu {
+.secondary-menu, .footer-menu {
     font-size: $font-size * 0.875;
     ul {
         overflow-x: scroll;

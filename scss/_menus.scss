@@ -25,7 +25,7 @@
     }
     ul {
         display: table;
-        max-width: em(450);
+        max-width: em(300);
     }
     li { 
         display: table-cell;
@@ -41,19 +41,27 @@
     }
     a {
         height: 100%;
-        padding: 0.6em 0 0.5em 0;
+        padding: 0.6em 0 0.3em 0;
         text-decoration: none;
         &:link, &:visited { color: $color-white; }
         &:hover, &:active {
             color: $color-white;
             background-color: lighten($color-red, $lighten-amount);
         }
+        font-size: 1rem;
+        @include media($large-screen) {
+            //font-size: 1em;
+        }
     }
 }
 
 .secondary-menu {
     font-size: $font-size * 0.875;
-    ul { background-color: $color-black; }
+    ul {
+        overflow-x: scroll;
+        white-space: nowrap;
+        background-color: $color-black;
+    }
     a {
         text-decoration: none;
         &:link, &:visited { color: $color-white; }

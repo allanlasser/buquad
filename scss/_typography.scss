@@ -16,3 +16,17 @@ a {
     &:link, &:visited { text-decoration: none; }
     &:hover, &:active { text-decoration: underline; }
 }
+
+blockquote {
+    padding-left: 1.5em;
+    font-size: 0.9em;
+}
+
+.pullquote {
+    font-family: Cooper Hewitt;
+    font-weight:  700;
+    font-size: 2em;
+    font-style: italic;
+    line-height: 1.5em;
+    margin: 1.5em 0;
+}

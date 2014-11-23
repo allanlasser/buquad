@@ -1,0 +1,10 @@
+article.page {
+    @extend article.single;
+    header {
+        height: 100%;
+    }
+    h1 {
+        font-size: 2em;
+        font-weight: 700;
+    }
+}   

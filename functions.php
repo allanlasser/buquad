@@ -101,6 +101,7 @@ function article_card($id) {
                 <h3><?php echo $post_date; ?></h3>
             </hgroup>
         </section>
+        <?php /*
         <section class="middle">
             <!-- Excerpts must be 117 characters or less! -->
             <!-- This example is exactly 117 characters. -->
@@ -109,6 +110,7 @@ function article_card($id) {
                 <?php echo $post_excerpt; ?>
             </summary>
         </section>
+        */ ?>
         <section class="bottom">
             <a type="button" href="<?php echo $post_url; ?>">Read Article</a>
         </section>

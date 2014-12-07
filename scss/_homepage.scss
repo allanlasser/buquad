@@ -23,18 +23,18 @@
                 width: 60%;
                 float: right;
             }
-            dfn {
-                font-family: $font-sans-serif;
-                text-transform: uppercase;
-                font-size: 1.25em;
-                font-weight: 700;
-            }
             h2 {
                 margin: 0.5em 0 0.5em 0;
                 font-size: 3em;
                 font-style:italic;
                 text-transform: uppercase;
                 color: $color-red;
+            }
+            dfn, h3 {
+                font-family: $font-sans-serif;
+                text-transform: uppercase;
+                font-size: 1.25em;
+                font-weight: 700;
             }
         }
     }

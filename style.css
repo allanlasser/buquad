@@ -765,7 +765,7 @@ article.page h1, article.tag h1 {
       float: left; } }
   .homepage .featured-article.container .featured-article-image img {
     height: auto;
-    padding: 0.75em; }
+    padding-right: 1.5em; }
   @media screen and (min-width: 40em) {
     .homepage .featured-article.container .featured-article-description {
       width: 60%;
@@ -776,3 +776,8 @@ article.page h1, article.tag h1 {
     font-style: italic;
     text-transform: uppercase;
     color: #E13625; }
+  .homepage .featured-article.container .featured-article-description dfn, .homepage .featured-article.container .featured-article-description h3 {
+    font-family: "Cooper Hewitt", "Helvetica Neue", sans-serif;
+    text-transform: uppercase;
+    font-size: 1.25em;
+    font-weight: 700; }

@@ -1,0 +1,31 @@
+.homepage {
+    .featured-article.container {
+        @include outer-container;
+        padding: 1.5em;
+        @include background(
+            linear-gradient(
+                $color-white,
+                darken($color-white, $darken-amount)
+            )
+        );
+        .featured-article-image {
+            @include media($medium-screen-up) {
+                width: 30%;
+                float: left;
+            }
+        }
+        .description {
+            @include media($medium-screen-up) {
+                width: 70%;
+                float: right;
+            }
+            h2 {
+                margin: 0.5em 0 0.5em 0;
+                font-size: 3em;
+                font-style:italic;
+                text-transform: uppercase;
+                color: $color-red;
+            }
+        }
+    }
+}

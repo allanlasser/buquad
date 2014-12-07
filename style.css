@@ -547,6 +547,9 @@ blockquote {
       font-style: italic;
       text-align: left;
       text-transform: uppercase; }
+  .primary-menu li.current-menu-item a {
+    color: #FCFCFC;
+    background-color: #e75f52; }
   .primary-menu a {
     height: 100%;
     padding: 0.6em 0 0.3em 0;
@@ -571,6 +574,9 @@ blockquote {
     .secondary-menu a:hover, .secondary-menu a:active, .footer-menu a:hover, .footer-menu a:active {
       color: #FCFCFC;
       background-color: #393939; }
+  .secondary-menu li.current-menu-item a, .footer-menu li.current-menu-item a {
+    color: #FCFCFC;
+    background-color: #393939; }
 
 /* SINGLE */
 article.single, article.page {
@@ -768,3 +774,10 @@ article.page h1 {
     font-style: italic;
     text-transform: uppercase;
     color: #E13625; }
+
+h1 {
+  font-size: 3em;
+  font-weight: 400;
+  margin-top: 2em;
+  font-style: italic;
+  text-transform: uppercase; }

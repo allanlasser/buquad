@@ -1,7 +1,7 @@
 .primary-menu, .secondary-menu, .footer-menu {
     font-family: $font-sans-serif;
     font-size: $font-size * 1.25;
-    
+
     ul { width: 100%; }
     li {
         display: inline-block;
@@ -16,7 +16,7 @@
 }
 
 .primary-menu {
-    background-color: $color-red; 
+    background-color: $color-red;
     display: block;
     .the-quad {
         &:before {
@@ -27,7 +27,7 @@
         display: table;
         max-width: em(300);
     }
-    li { 
+    li {
         display: table-cell;
         height: 100%;
         vertical-align: center;
@@ -38,6 +38,10 @@
             text-align: left;
             text-transform: uppercase;
         }
+    }
+    li.current-menu-item a {
+      color: $color-white;
+      background-color: lighten($color-red, $lighten-amount);
     }
     a {
         height: 100%;
@@ -69,5 +73,9 @@
             color: $color-white;
             background-color: lighten($color-black, $lighten-amount);
         }
+    }
+    li.current-menu-item a {
+      color: $color-white;
+      background-color: lighten($color-black, $lighten-amount);
     }
 }

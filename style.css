@@ -759,6 +759,29 @@ article.page header {
     font-style: italic;
     text-transform: uppercase; }
 
+article.archive header h1 {
+  margin-top: 1em; }
+
+nav.pagination {
+  overflow: hidden; }
+  nav.pagination a {
+    color: #202020;
+    margin: 1em 0;
+    display: block;
+    font-family: "Cooper Hewitt", "Helvetica Neue", sans-serif;
+    font-weight: 700; }
+    nav.pagination a:hover {
+      color: #E13625;
+      text-decoration: none; }
+  nav.pagination .alignleft {
+    display: inline-block;
+    float: left;
+    clear: left; }
+  nav.pagination .alignright {
+    display: inline-block;
+    float: right;
+    clear: right; }
+
 .homepage .featured-article.container {
   overflow: hidden;
   padding: 1.5em;

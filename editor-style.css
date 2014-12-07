@@ -483,3 +483,63 @@ article.single {
         margin-right: 0; }
         article.single .wp-caption.alignright .wp-caption-text {
           text-align: left; } }
+
+html .mceContentBody {
+  max-width: 900px;
+  font-family: "Lora", "Georgia", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0 auto; }
+
+p {
+  margin-bottom: 1em;
+  font-size: 1.2em;
+  line-height: 1.6em; }
+  p > span {
+    line-height: 1.6em; }
+
+@media screen and (min-width: 53.75em) {
+  margin: 1.5em auto; }
+.wp-caption {
+  overflow: hidden;
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0;
+  background-color: transparent;
+  border: 0; }
+  .wp-caption a {
+    display: block;
+    width: 100%;
+    margin: 1.5em 0em; }
+  .wp-caption img {
+    width: 100%;
+    max-width: 100%;
+    height: auto; }
+  .wp-caption .wp-caption-dd {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: "Cooper Hewitt", "Helvetica Neue", sans-serif;
+    font-size: 0.8em;
+    font-weight: 700;
+    text-align: left;
+    margin-top: 1em; }
+  @media screen and (min-width: 53.75em) {
+    .wp-caption a {
+      margin: 0; }
+    .wp-caption.alignleft, .wp-caption.alignright {
+      width: 60% !important; }
+      .wp-caption.alignleft img, .wp-caption.alignright img {
+        margin-bottom: 0.75em; }
+    .wp-caption.alignleft {
+      float: left;
+      margin-left: 0;
+      margin-right: 2em; }
+      .wp-caption.alignleft .wp-caption-text {
+        text-align: left; }
+    .wp-caption.alignright {
+      float: right;
+      margin-left: 2em;
+      margin-right: 0; }
+      .wp-caption.alignright .wp-caption-text {
+        text-align: left; } }

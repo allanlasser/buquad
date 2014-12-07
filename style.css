@@ -753,13 +753,14 @@ article.page h1 {
   background: linear-gradient(#FCFCFC, #e3e3e3); }
   @media screen and (min-width: 40em) {
     .homepage .featured-article.container .featured-article-image {
-      width: 30%;
+      width: 40%;
       float: left; } }
   .homepage .featured-article.container .featured-article-image img {
-    height: auto; }
+    height: auto;
+    padding: 0.75em; }
   @media screen and (min-width: 40em) {
     .homepage .featured-article.container .featured-article-description {
-      width: 70%;
+      width: 60%;
       float: right; } }
   .homepage .featured-article.container .featured-article-description h2 {
     margin: 0.5em 0 0.5em 0;

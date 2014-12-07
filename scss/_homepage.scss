@@ -10,14 +10,17 @@
         );
         .featured-article-image {
             @include media($medium-screen-up) {
-                width: 30%;
+                width: 40%;
                 float: left;
             }
-            img { height: auto; }
+            img {
+                height: auto;
+                padding: 0.75em;
+            }
         }
         .featured-article-description {
             @include media($medium-screen-up) {
-                width: 70%;
+                width: 60%;
                 float: right;
             }
             h2 {

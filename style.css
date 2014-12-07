@@ -747,25 +747,20 @@ article.page h1 {
   text-transform: uppercase; }
 
 .homepage .featured-article.container {
-  max-width: 68em;
-  margin-left: auto;
-  margin-right: auto;
   padding: 1.5em;
   background: -webkit-linear-gradient(#FCFCFC, #e3e3e3);
   background: linear-gradient(#FCFCFC, #e3e3e3); }
-  .homepage .featured-article.container:after {
-    content: "";
-    display: table;
-    clear: both; }
   @media screen and (min-width: 40em) {
     .homepage .featured-article.container .featured-article-image {
       width: 30%;
       float: left; } }
+  .homepage .featured-article.container .featured-article-image img {
+    height: auto; }
   @media screen and (min-width: 40em) {
-    .homepage .featured-article.container .description {
+    .homepage .featured-article.container .featured-article-description {
       width: 70%;
       float: right; } }
-  .homepage .featured-article.container .description h2 {
+  .homepage .featured-article.container .featured-article-description h2 {
     margin: 0.5em 0 0.5em 0;
     font-size: 3em;
     font-style: italic;

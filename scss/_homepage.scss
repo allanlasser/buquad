@@ -1,6 +1,5 @@
 .homepage {
     .featured-article.container {
-        @include outer-container;
         padding: 1.5em;
         @include background(
             linear-gradient(
@@ -13,8 +12,9 @@
                 width: 30%;
                 float: left;
             }
+            img { height: auto; }
         }
-        .description {
+        .featured-article-description {
             @include media($medium-screen-up) {
                 width: 70%;
                 float: right;

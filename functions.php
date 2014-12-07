@@ -87,6 +87,9 @@ function article_card($id) {
     $post_date = get_the_time('m/d/y', $id);
     $post_url = get_permalink($id);
     $post_image = get_the_post_thumbnail($id, 'thumbnail', array('style' => 'width: 280px; height: 280px'));
+    if(!$post_image) {
+      $post_image = get_template_directory_uri().'/assets/images/card.png'
+    }
     // render card
     ?>
     <section type="card" class="article">

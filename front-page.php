@@ -11,7 +11,7 @@ $postCounter = 0;
 $postMax = 20;
 $blogs_query = new WP_Query('cat=-3822&posts_per_page='.$postMax.'&paged='.$paged);
 $features_query = new WP_Query('orderby=date&order=desc&cat=3822&posts_per_page=1');
-if ($features_query->have_posts()) :
+if ($features_query->have_posts() && $paged==1) :
     while($features_query->have_posts()) :
         $features_query->the_post();
         $post_image = get_the_post_thumbnail(get_the_id(), 'large');

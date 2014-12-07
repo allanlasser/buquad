@@ -1,5 +1,6 @@
 .homepage {
     .featured-article.container {
+        overflow: hidden;
         padding: 1.5em;
         @include background(
             linear-gradient(

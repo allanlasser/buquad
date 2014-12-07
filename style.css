@@ -747,6 +747,7 @@ article.page h1 {
   text-transform: uppercase; }
 
 .homepage .featured-article.container {
+  overflow: hidden;
   padding: 1.5em;
   background: -webkit-linear-gradient(#FCFCFC, #e3e3e3);
   background: linear-gradient(#FCFCFC, #e3e3e3); }

@@ -4,12 +4,16 @@ article.page {
         height: 3em;
         max-width: 60em;
         margin: 0 auto;
+        @media screen and (max-width: 60em) {
+            margin: 0 1.5em;
+        }
+        h1 {
+            font-size: 3em;
+            font-weight: 400; 
+            margin-top: 2em;
+            font-style: italic;
+            text-transform: uppercase;
+        }
     }
-    h1 {
-        font-size: 3em;
-        font-weight: 400; 
-        margin-top: 2em;
-        font-style: italic;
-        text-transform: uppercase;
-    }
+    
 }   

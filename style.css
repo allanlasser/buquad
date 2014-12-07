@@ -423,6 +423,8 @@ blockquote {
     [type="card"] .top h1 {
       font-size: 24px;
       font-weight: 700;
+      font-style: italic;
+      text-transform: uppercase;
       line-height: 24px; }
       [type="card"] .top h1 a.card-title {
         text-decoration: none; }
@@ -747,12 +749,15 @@ article.page header, article.tag header {
   height: 3em;
   max-width: 60em;
   margin: 0 auto; }
-article.page h1, article.tag h1 {
-  font-size: 3em;
-  font-weight: 400;
-  margin-top: 2em;
-  font-style: italic;
-  text-transform: uppercase; }
+  @media screen and (max-width: 60em) {
+    article.page header, article.tag header {
+      margin: 0 1.5em; } }
+  article.page header h1, article.tag header h1 {
+    font-size: 3em;
+    font-weight: 400;
+    margin-top: 2em;
+    font-style: italic;
+    text-transform: uppercase; }
 
 .homepage .featured-article.container {
   overflow: hidden;
@@ -773,6 +778,7 @@ article.page h1, article.tag h1 {
   .homepage .featured-article.container .featured-article-description h2 {
     margin: 0.5em 0 0.5em 0;
     font-size: 3em;
+    line-height: 1em;
     font-style: italic;
     text-transform: uppercase;
     color: #E13625; }
@@ -781,3 +787,8 @@ article.page h1, article.tag h1 {
     text-transform: uppercase;
     font-size: 1.25em;
     font-weight: 700; }
+  .homepage .featured-article.container .featured-article-description h3 {
+    margin-bottom: 1em; }
+
+article.tag h1 {
+  margin-top: 1em; }

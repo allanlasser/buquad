@@ -8,7 +8,7 @@
   }
 
 ?>
-<article class="tag">
+<article class="archive">
   <header>
     <h1><?php echo $title; ?></h1>
   </header>
@@ -22,8 +22,8 @@
     <div class="navigation">
       <?php if(function_exists('wp_pagenavi')) { wp_pagenavi(); } else { ?>
 
-        <div class="alignleft"><?php next_posts_link('&larr; Previous Entries') ?></div>
-        <div class="alignright"><?php previous_posts_link('Next Entries &rarr;') ?></div>
+        <div class="alignleft"><?php next_posts_link('&larr; Older Articles') ?></div>
+        <div class="alignright"><?php previous_posts_link('Newer Articles &rarr;') ?></div>
         <?php } ?>
       </div>
   </div>

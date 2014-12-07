@@ -40,6 +40,10 @@ if ($blogs_query->have_posts()) :
     endwhile;
 endif;
 ?>
+      <div class="navigation">
+        <div class="alignleft"><a href="/page/<?php echo $paged+1; ?>">&larr; Older Articles</a></div>
+        <div class="alignright"><?php if($paged > 1) { ?><a href="/page/<?php echo $paged-1; ?>">&larr; Newer Articles</a><?php } ?></div>
+      </div>
     </div>
 </div>
 

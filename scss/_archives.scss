@@ -1,2 +1,3 @@
-@extend article.page header;
-@extend article.page h1;
+article.tag {
+  @extend article.page;
+}

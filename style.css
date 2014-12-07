@@ -794,6 +794,15 @@ article.tag h1 {
   margin-top: 1em; }
 article.tag .navigation {
   overflow: hidden; }
+  article.tag .navigation a {
+    color: #202020;
+    margin: 1em 0;
+    display: block;
+    font-family: "Cooper Hewitt", "Helvetica Neue", sans-serif;
+    font-weight: 700; }
+    article.tag .navigation a:hover {
+      color: #E13625;
+      text-decoration: none; }
   article.tag .navigation .alignleft {
     display: inline-block;
     float: left;

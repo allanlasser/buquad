@@ -93,10 +93,10 @@ function article_card($id) {
         <section class="top">
             <?php echo $post_image; ?>
             <hgroup>
-                <h1><?php echo $post_title; ?></h1>
+                <h1><a class="card-title" href="<?php echo $post_url; ?>"><?php echo $post_title; ?></a></h1>
                 <h2>
                     by
-                    <a href="<?php echo $post_author_url; ?>" title="Author page for <?php echo $post_author_name ?>">
+                    <a class="card-author" href="<?php echo $post_author_url; ?>" title="Author page for <?php echo $post_author_name ?>">
                         <?php echo $post_author_name; ?>
                     </a>
                 </h2>

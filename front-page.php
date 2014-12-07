@@ -15,7 +15,7 @@ if ($features_query->have_posts()) :
     while($features_query->have_posts()) :
         $features_query->the_post();
 
-        $post_author = post_author();
+        $post_author = get_the_author();
         $post_author_name = get_the_author_meta('display_name', $post_author);
         $post_author_url = get_author_posts_url($post_author);
         $post_image = get_the_post_thumbnail(get_the_id(), 'large');

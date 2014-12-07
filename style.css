@@ -581,21 +581,21 @@ blockquote {
     background-color: #393939; }
 
 /* SINGLE */
-article.single, article.page, article.tag {
+article.single, article.page {
   width: 100%; }
-  article.single header, article.page header, article.tag header {
+  article.single header, article.page header {
     position: relative;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     height: 25em; }
     @media screen and (min-width: 53.75em) {
-      article.single header, article.page header, article.tag header {
+      article.single header, article.page header {
         height: 45em; } }
-    article.single header .hero-image, article.page header .hero-image, article.tag header .hero-image {
+    article.single header .hero-image, article.page header .hero-image {
       width: 100%;
       height: auto; }
-    article.single header .intro-text, article.page header .intro-text, article.tag header .intro-text {
+    article.single header .intro-text, article.page header .intro-text {
       width: 100%;
       position: absolute;
       bottom: 0;
@@ -605,42 +605,42 @@ article.single, article.page, article.tag {
       background: linear-gradient(rgba(255, 255, 255, 0.75), white);
       text-align: center; }
       @media screen and (min-width: 53.75em) {
-        article.single header .intro-text, article.page header .intro-text, article.tag header .intro-text {
+        article.single header .intro-text, article.page header .intro-text {
           padding: 3em; } }
-      article.single header .intro-text h2, article.page header .intro-text h2, article.tag header .intro-text h2 {
+      article.single header .intro-text h2, article.page header .intro-text h2 {
         margin: 0 auto .3em;
         font-size: 2em;
         font-weight: 700;
         line-height: 1.25;
         max-width: 80%; }
         @media screen and (min-width: 53.75em) {
-          article.single header .intro-text h2, article.page header .intro-text h2, article.tag header .intro-text h2 {
+          article.single header .intro-text h2, article.page header .intro-text h2 {
             font-size: 3em;
             margin-bottom: .4em; } }
-      article.single header .intro-text h3, article.page header .intro-text h3, article.tag header .intro-text h3 {
+      article.single header .intro-text h3, article.page header .intro-text h3 {
         color: #666666;
         font-size: 1.3em;
         font-weight: 700;
         line-height: 1.4em;
         margin: 0 auto 1em; }
         @media screen and (min-width: 53.75em) {
-          article.single header .intro-text h3, article.page header .intro-text h3, article.tag header .intro-text h3 {
+          article.single header .intro-text h3, article.page header .intro-text h3 {
             font-size: 1.7em;
             line-height: 1.35em;
             margin: 0 auto 1em;
             width: 60%; } }
-      article.single header .intro-text h4, article.page header .intro-text h4, article.tag header .intro-text h4 {
+      article.single header .intro-text h4, article.page header .intro-text h4 {
         font-weight: 700; }
-      article.single header .intro-text ul, article.page header .intro-text ul, article.tag header .intro-text ul {
+      article.single header .intro-text ul, article.page header .intro-text ul {
         margin-bottom: 1.5em; }
-      article.single header .intro-text ul li, article.page header .intro-text ul li, article.tag header .intro-text ul li {
+      article.single header .intro-text ul li, article.page header .intro-text ul li {
         display: inline-block;
         margin: 5px; }
-        article.single header .intro-text ul li a, article.page header .intro-text ul li a, article.tag header .intro-text ul li a {
+        article.single header .intro-text ul li a, article.page header .intro-text ul li a {
           color: white; }
-          article.single header .intro-text ul li a:hover, article.page header .intro-text ul li a:hover, article.tag header .intro-text ul li a:hover {
+          article.single header .intro-text ul li a:hover, article.page header .intro-text ul li a:hover {
             color: white; }
-    article.single header .tags a, article.page header .tags a, article.tag header .tags a {
+    article.single header .tags a, article.page header .tags a {
       padding: 0.5em 1em 0.25em;
       font-size: .9em;
       font-weight: 700;
@@ -649,70 +649,70 @@ article.single, article.page, article.tag {
       text-decoration: none;
       color: #FCFCFC;
       background: #E13625; }
-      article.single header .tags a:hover, article.page header .tags a:hover, article.tag header .tags a:hover {
+      article.single header .tags a:hover, article.page header .tags a:hover {
         background: #b9281a; }
-  article.single .author, article.page .author, article.tag .author {
+  article.single .author, article.page .author {
     float: right;
     margin: 3px 0 3px 8px; }
-  article.single .body, article.page .body, article.tag .body {
+  article.single .body, article.page .body {
     max-width: 68em;
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;
     max-width: 60em;
     margin: 1.5em 0.75em; }
-    article.single .body:after, article.page .body:after, article.tag .body:after {
+    article.single .body:after, article.page .body:after {
       content: "";
       display: table;
       clear: both; }
-    article.single .body p, article.page .body p, article.tag .body p {
+    article.single .body p, article.page .body p {
       margin-bottom: 1em;
       font-size: 1.2em;
       line-height: 1.6em; }
-      article.single .body p > span, article.page .body p > span, article.tag .body p > span {
+      article.single .body p > span, article.page .body p > span {
         line-height: 1.6em; }
     @media screen and (min-width: 53.75em) {
-      article.single .body, article.page .body, article.tag .body {
+      article.single .body, article.page .body {
         margin: 1.5em auto; } }
-  article.single img, article.page img, article.tag img {
+  article.single img, article.page img {
     height: auto;
     padding-bottom: 0.5em; }
     @media screen and (min-width: 53.75em) {
-      article.single img.alignnone, article.page img.alignnone, article.tag img.alignnone {
+      article.single img.alignnone, article.page img.alignnone {
         width: 90%;
         height: auto;
         margin: 0 auto; }
-      article.single img.alignleft, article.page img.alignleft, article.tag img.alignleft, article.single img.alignright, article.page img.alignright, article.tag img.alignright {
+      article.single img.alignleft, article.page img.alignleft, article.single img.alignright, article.page img.alignright {
         width: 60% !important;
         height: auto; }
-        article.single img.alignleft img, article.page img.alignleft img, article.tag img.alignleft img, article.single img.alignright img, article.page img.alignright img, article.tag img.alignright img {
+        article.single img.alignleft img, article.page img.alignleft img, article.single img.alignright img, article.page img.alignright img {
           margin-bottom: 0.75em; }
-      article.single img.alignleft, article.page img.alignleft, article.tag img.alignleft {
+      article.single img.alignleft, article.page img.alignleft {
         float: left;
         margin-left: 0;
         margin-right: 2em; }
-        article.single img.alignleft .wp-caption-text, article.page img.alignleft .wp-caption-text, article.tag img.alignleft .wp-caption-text {
+        article.single img.alignleft .wp-caption-text, article.page img.alignleft .wp-caption-text {
           text-align: left; }
-      article.single img.alignright, article.page img.alignright, article.tag img.alignright {
+      article.single img.alignright, article.page img.alignright {
         float: right;
         margin-left: 2em;
         margin-right: 0; }
-        article.single img.alignright .wp-caption-text, article.page img.alignright .wp-caption-text, article.tag img.alignright .wp-caption-text {
+        article.single img.alignright .wp-caption-text, article.page img.alignright .wp-caption-text {
           text-align: left; } }
-  article.single .wp-caption, article.page .wp-caption, article.tag .wp-caption {
+  article.single .wp-caption, article.page .wp-caption {
     overflow: hidden;
     width: 100% !important;
     max-width: 100% !important;
     margin: 0; }
-    article.single .wp-caption a, article.page .wp-caption a, article.tag .wp-caption a {
+    article.single .wp-caption a, article.page .wp-caption a {
       display: block;
       width: 100%;
       margin: 1.5em 0em; }
-    article.single .wp-caption img, article.page .wp-caption img, article.tag .wp-caption img {
+    article.single .wp-caption img, article.page .wp-caption img {
       width: 100%;
       max-width: 100%;
       height: auto; }
-    article.single .wp-caption .wp-caption-text, article.page .wp-caption .wp-caption-text, article.tag .wp-caption .wp-caption-text {
+    article.single .wp-caption .wp-caption-text, article.page .wp-caption .wp-caption-text {
       -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
       box-sizing: border-box;
@@ -721,38 +721,38 @@ article.single, article.page, article.tag {
       font-weight: 700;
       margin-top: 1em; }
     @media screen and (min-width: 53.75em) {
-      article.single .wp-caption a, article.page .wp-caption a, article.tag .wp-caption a {
+      article.single .wp-caption a, article.page .wp-caption a {
         margin: 0; }
-      article.single .wp-caption.alignnone, article.page .wp-caption.alignnone, article.tag .wp-caption.alignnone {
+      article.single .wp-caption.alignnone, article.page .wp-caption.alignnone {
         width: 90%;
         height: auto;
         margin: 0 auto; }
-      article.single .wp-caption.alignleft, article.page .wp-caption.alignleft, article.tag .wp-caption.alignleft, article.single .wp-caption.alignright, article.page .wp-caption.alignright, article.tag .wp-caption.alignright {
+      article.single .wp-caption.alignleft, article.page .wp-caption.alignleft, article.single .wp-caption.alignright, article.page .wp-caption.alignright {
         width: 60% !important;
         height: auto; }
-        article.single .wp-caption.alignleft img, article.page .wp-caption.alignleft img, article.tag .wp-caption.alignleft img, article.single .wp-caption.alignright img, article.page .wp-caption.alignright img, article.tag .wp-caption.alignright img {
+        article.single .wp-caption.alignleft img, article.page .wp-caption.alignleft img, article.single .wp-caption.alignright img, article.page .wp-caption.alignright img {
           margin-bottom: 0.75em; }
-      article.single .wp-caption.alignleft, article.page .wp-caption.alignleft, article.tag .wp-caption.alignleft {
+      article.single .wp-caption.alignleft, article.page .wp-caption.alignleft {
         float: left;
         margin-left: 0;
         margin-right: 2em; }
-        article.single .wp-caption.alignleft .wp-caption-text, article.page .wp-caption.alignleft .wp-caption-text, article.tag .wp-caption.alignleft .wp-caption-text {
+        article.single .wp-caption.alignleft .wp-caption-text, article.page .wp-caption.alignleft .wp-caption-text {
           text-align: left; }
-      article.single .wp-caption.alignright, article.page .wp-caption.alignright, article.tag .wp-caption.alignright {
+      article.single .wp-caption.alignright, article.page .wp-caption.alignright {
         float: right;
         margin-left: 2em;
         margin-right: 0; }
-        article.single .wp-caption.alignright .wp-caption-text, article.page .wp-caption.alignright .wp-caption-text, article.tag .wp-caption.alignright .wp-caption-text {
+        article.single .wp-caption.alignright .wp-caption-text, article.page .wp-caption.alignright .wp-caption-text {
           text-align: left; } }
 
-article.page header, article.tag header {
+article.page header {
   height: 3em;
   max-width: 60em;
   margin: 0 auto; }
   @media screen and (max-width: 60em) {
-    article.page header, article.tag header {
+    article.page header {
       margin: 0 1.5em; } }
-  article.page header h1, article.tag header h1 {
+  article.page header h1 {
     font-size: 3em;
     font-weight: 400;
     margin-top: 2em;
@@ -789,25 +789,3 @@ article.page header, article.tag header {
     font-weight: 700; }
   .homepage .featured-article.container .featured-article-description h3 {
     margin-bottom: 1em; }
-
-article.tag h1 {
-  margin-top: 1em; }
-article.tag .navigation {
-  overflow: hidden; }
-  article.tag .navigation a {
-    color: #202020;
-    margin: 1em 0;
-    display: block;
-    font-family: "Cooper Hewitt", "Helvetica Neue", sans-serif;
-    font-weight: 700; }
-    article.tag .navigation a:hover {
-      color: #E13625;
-      text-decoration: none; }
-  article.tag .navigation .alignleft {
-    display: inline-block;
-    float: left;
-    clear: left; }
-  article.tag .navigation .alignright {
-    display: inline-block;
-    float: right;
-    clear: right; }

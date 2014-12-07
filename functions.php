@@ -88,7 +88,7 @@ function article_card($id) {
     $post_url = get_permalink($id);
     $post_image = get_the_post_thumbnail($id, 'thumbnail', array('style' => 'width: 280px; height: 280px'));
     if(!$post_image) {
-      $post_image = '<img style="width: 280px" width="280" alt="placeholder image" src="'.get_template_directory_uri().'/assets/images/card.png">';
+      $post_image = '<img style="width: 280px" width="280" alt="placeholder image" src="'.get_template_directory_uri().'/assets/images/default-card.png">';
     }
     // render card
     ?>

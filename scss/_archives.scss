@@ -1,4 +1,17 @@
 article.tag {
   @extend article.page;
   h1 { margin-top: 1em; }
+  .navigation {
+    overflow: hidden;
+    .alignleft {
+      display: inline-block;
+      float: left;
+      clear: left;
+    }
+    .alignright {
+      display: inline-block;
+      float: right;
+      clear: right;
+    }
+  }
 }

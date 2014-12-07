@@ -13,7 +13,7 @@ html .mceContentBody {
   font-family: $font-serif;
   font-size: $font-size;
   line-height: $line-height;
-  margin: 0 auto;
+  margin: 0.75em auto 0;
 }
 
 p {
@@ -24,6 +24,39 @@ p {
 }
 @include media($large-screen) {
   margin: 1.5em auto;
+}
+
+@mixin image-alignment {
+  &.alignnone {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+  }
+  &.alignleft, &.alignright {
+    width: 60% !important;
+    height: auto;
+    img { margin-bottom: 0.75em; }
+  }
+  &.alignleft {
+    float: left;
+    margin-left: 0;
+    margin-right: 2em;
+    .wp-caption-text { text-align: left; }
+  }
+  &.alignright {
+    float: right;
+    margin-left: 2em;
+    margin-right: 0;
+    .wp-caption-text { text-align: left; }
+  }
+}
+
+img {
+  height: auto;
+  padding-bottom: 0.5em;
+  @include media($large-screen) {
+    @include image-alignment;
+  }
 }
 
 .wp-caption {
@@ -53,21 +86,6 @@ p {
   }
   @include media($large-screen) {
     a { margin: 0; }
-    &.alignleft, &.alignright {
-      width: 60% !important;
-      img { margin-bottom: 0.75em; }
-    }
-    &.alignleft {
-      float: left;
-      margin-left: 0;
-      margin-right: 2em;
-      .wp-caption-text { text-align: left; }
-    }
-    &.alignright {
-      float: right;
-      margin-left: 2em;
-      margin-right: 0;
-      .wp-caption-text { text-align: left; }
-    }
+    @include image-alignment;
   }
 }

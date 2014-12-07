@@ -90,6 +90,7 @@ function article_card($id) {
     // render card
     ?>
     <section type="card" class="article">
+        <a href="<?php echo $post_url; ?>"></a>
         <section class="top">
             <?php echo $post_image; ?>
             <hgroup>

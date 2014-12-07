@@ -423,6 +423,8 @@ blockquote {
       font-size: 24px;
       font-weight: 700;
       line-height: 24px; }
+      [type="card"] .top h1 a.card-title {
+        text-decoration: none; }
     [type="card"] .top img {
       display: block;
       width: 100%;

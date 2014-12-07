@@ -28,7 +28,7 @@ $border-radius: 8px;
 [type="button"] {
     display: inline-block;
     padding: 1em (0.75em - 0.125em) 0.75em;
-    
+
     text-align: center;
     font-weight: 700;
     text-decoration: none;
@@ -56,7 +56,7 @@ $border-radius: 8px;
 
     box-shadow: #bdc3c7, 0, 5px, 5px;
     @include animation-duration(0.5s);
-    
+
     .top {
         position: relative;
         color: white;
@@ -65,6 +65,9 @@ $border-radius: 8px;
             font-size: 24px;
             font-weight: 700;
             line-height: 24px;
+            a.card-title {
+              text-decoration: none;
+            }
         }
         img {
             display: block;
@@ -112,9 +115,9 @@ $border-radius: 8px;
         margin: 0.75em;
         a[type="button"] { display: block; }
     }
-    
-    &.article { 
-        text-align: left; 
+
+    &.article {
+        text-align: left;
         img {
             filter: blur(1px);
             -webkit-filter: blur(1px);
@@ -147,27 +150,27 @@ $border-radius: 8px;
             margin: 1.5em;
         }
     }
-    
+
     &.author, &.subject {
-        text-align: center; 
+        text-align: center;
         .top {
-            
+
             h1 {
                 width: 100%;
                 position: absolute;
                 bottom: 0;
                 padding: 1em;
-                
+
                 @include box-sizing(border-box);
                 @include background-image(linear-gradient(rgba(0,0,0,0.0), rgba(0,0,0,1)));
             }
         }
     }
-    
+
      @media screen and (min-width: 300px) {
         display: inline-block;
         margin-bottom: 0.75em;
         margin-left: 0.75em;
     }
-    
+
 }

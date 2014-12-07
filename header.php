@@ -10,8 +10,8 @@
 
         <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 	    <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
-        <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/images/favicon.ico" />
-	    <link rel="apple-touch-icon-precomposed" href="<?php echo get_template_directory_uri(); ?>/images/apple-touch-icon.png" />
+        <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/assets/images/favicon.ico" />
+	    <link rel="apple-touch-icon-precomposed" href="<?php echo get_template_directory_uri(); ?>/assets/images/apple-touch-icon.png" />
 	    <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="<?php bloginfo('rss2_url'); ?>" />
 
         <!-- SOCIAL MEDIA INTEGRATION -->
@@ -24,7 +24,7 @@
             if (function_exists('wp_get_attachment_image_src')) {
                 $image = (wp_get_attachment_image_src(get_post_thumbnail_id(), 'social')[0]);
             } else {
-                $image = get_template_directory_uri().'/images/placeholder.png';
+                $image = get_template_directory_uri().'/assets/images/placeholder.png';
             }
         ?>
 		<!-- FACEBOOK OPEN GRAPH -->

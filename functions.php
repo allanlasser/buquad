@@ -198,12 +198,14 @@ function tax_card($id, $tax) {
 
 function get_404() {
     ?>
-    <div class="404">
-        <h1>Page Not Found</h2>
-        <h2>Well, this is embarassing.</h2>
-        <p>Whatever you were looking for isn&rsquo;t here.</p>
-        <p><a href="<?php echo home_url(); ?>">Return to our homepage.</a></p>
-    </div>
+  <article class="page error-404">
+    <header>
+      <h1>Page Not Found</h2>
+      <h2>Well, this is embarassing.</h2>
+      <p>Whatever you were looking for isn&rsquo;t here.</p>
+      <p><a href="<?php echo home_url(); ?>">Return to our homepage.</a></p>
+    </header>
+  </article>
     <?php
 }
 ?>

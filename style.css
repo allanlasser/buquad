@@ -758,6 +758,26 @@ article.page header, article.archive header {
     margin-top: 2em;
     font-style: italic;
     text-transform: uppercase; }
+article.page.error-404, article.error-404.archive {
+  padding-top: 1em;
+  min-height: 50em;
+  width: 100%;
+  background-image: url("http://buquad.com/wp-content/uploads/2014/02/05_02_010760_full.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  article.page.error-404 header, article.error-404.archive header {
+    padding: 1em;
+    height: auto;
+    background: rgba(0, 0, 0, 0.5);
+    color: #FCFCFC;
+    padding-top: 3em; }
+    article.page.error-404 header h1, article.error-404.archive header h1 {
+      margin-top: 0; }
+    article.page.error-404 header h2, article.error-404.archive header h2 {
+      font-size: 2em;
+      font-weight: 200;
+      margin-top: 2em; }
 
 .homepage .featured-article.container {
   overflow: hidden;

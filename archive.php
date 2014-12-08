@@ -19,7 +19,7 @@
         article_card(get_the_id());
       }
     ?>
-    <div class="navigation">
+    <nav class="pagination">
       <?php if(function_exists('wp_pagenavi')) { wp_pagenavi(); } else { ?>
 
         <div class="alignleft"><?php next_posts_link('&larr; Older Articles') ?></div>
